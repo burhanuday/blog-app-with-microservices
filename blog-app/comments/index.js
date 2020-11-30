@@ -52,7 +52,7 @@ app.post("/events", async (req, res) => {
         id,
         content,
         status,
-        content,
+        postId,
       },
     });
   }
